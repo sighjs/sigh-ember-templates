@@ -1,0 +1,32 @@
+{
+  "name": "sigh-ember-templates",
+  "version": "0.0.1",
+  "description": "Ember template compiler for sigh asset pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sighjs/sigh-ember-templates"
+  },
+  "keywords": [
+    "sigh",
+    "asset",
+    "pipeline",
+    "ember",
+    "ember-templates"
+  ],
+  "author": "James Pike <github@chilon.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sighjs/sigh-ember-templates/issues"
+  },
+  "homepage": "https://github.com/sighjs/sigh-ember-templates",
+  "dependencies": {
+    "handlebars": "^1.3.0"
+  },
+  "peerDependencies": {
+    "ember-template-compiler": "^1.8.0"
+  }
+}
