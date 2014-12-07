@@ -7,7 +7,7 @@ module.exports = function(opts) {
   return function(operation) {
     return operation.inputs.map(function(resource) {
       var modulePath = resource.filePath
-      modulePath = modulePath.replace(/\.js$/, '')
+      modulePath = modulePath.replace(/\.hbs/, '')
       if (opts.getModulePath)
         modulePath = opts.getModulePath(modulePath)
 
